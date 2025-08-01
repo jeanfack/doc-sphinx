@@ -61,6 +61,11 @@
 <li class="toctree-l3"><a class="reference internal" href="#output">Output</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#graphviz">graphviz</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Output</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -99,6 +104,7 @@
              
   <section class="tex2jax_ignore mathjax_ignore" id="myst-example-howto">
 <h1>MyST Example HOWTO<a class="headerlink" href="#myst-example-howto" title="Link to this heading"></a></h1>
+<p>Officiel doc <a class="reference external" href="https://myst-parser.readthedocs.io/">https://myst-parser.readthedocs.io/</a>.</p>
 <section id="code-block">
 <h2>code-block<a class="headerlink" href="#code-block" title="Link to this heading"></a></h2>
 <section id="source">
@@ -160,6 +166,47 @@ helloworld.ps1</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </div>
+</section>
+</section>
+<section id="graphviz">
+<h2>graphviz<a class="headerlink" href="#graphviz" title="Link to this heading"></a></h2>
+<section id="id1">
+<h3>Source<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-4" name="sd-tab-set-2" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-4">
+markdown</label><div class="sd-tab-content docutils">
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span>```{graphviz} ../_include/sphinx/myst-example-howto/graphviz/example1/example1.dot
+<span class="linenos">2</span>```
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-5" name="sd-tab-set-2" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-5">
+markdown</label><div class="sd-tab-content docutils">
+<div class="highlight-dot notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="k">digraph</span><span class="w"> </span><span class="nt">G</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos">2</span><span class="c1">// sphinx_rtd_dark_mode</span>
+<span class="linenos">3</span><span class="w">  </span><span class="na">bgcolor</span><span class="p">=</span><span class="s2">&quot;#141414&quot;</span>
+<span class="linenos">4</span><span class="w">  </span><span class="k">node</span><span class="p">[</span><span class="na">fontcolor</span><span class="p">=</span><span class="s2">&quot;#c1c1c1&quot;</span><span class="p">,</span><span class="na">style</span><span class="p">=</span><span class="s">filled</span><span class="p">,</span><span class="na">color</span><span class="p">=</span><span class="s2">&quot;#c1c1c1&quot;</span><span class="p">,</span><span class="na">fillcolor</span><span class="p">=</span><span class="s2">&quot;#141414&quot;</span><span class="p">]</span>
+<span class="linenos">5</span><span class="w">  </span><span class="k">edge</span><span class="p">[</span><span class="na">color</span><span class="p">=</span><span class="s2">&quot;#c1c1c1&quot;</span><span class="p">,</span><span class="na">fontcolor</span><span class="p">=</span><span class="s2">&quot;#c1c1c1&quot;</span><span class="p">]</span>
+<span class="linenos">6</span>
+<span class="linenos">7</span><span class="w">    </span><span class="nt">A</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="nt">B</span>
+<span class="linenos">8</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id2">
+<h3>Output<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<div class="graphviz"><img src="../_images/graphviz-2460d33359df1d81e1c540fd328d60e1e563c7a7.png" alt="digraph G {
+// sphinx_rtd_dark_mode
+  bgcolor=&quot;#141414&quot;
+  node[fontcolor=&quot;#c1c1c1&quot;,style=filled,color=&quot;#c1c1c1&quot;,fillcolor=&quot;#141414&quot;]
+  edge[color=&quot;#c1c1c1&quot;,fontcolor=&quot;#c1c1c1&quot;]
+
+    A -&gt; B
+}" class="graphviz" /></div>
 </section>
 </section>
 </section>
