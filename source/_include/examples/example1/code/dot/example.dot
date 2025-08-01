@@ -1,0 +1,9 @@
+digraph foo {
+  // sphinx_rtd_dark_mode
+  bgcolor="#141414"
+  node[fontcolor="#c1c1c1",style=filled,color="#c1c1c1",fillcolor="#141414"]
+  edge[color="#c1c1c1",fontcolor="#c1c1c1"]
+  // sphinx_rtd_dark_mode
+  
+  A -> B
+}
