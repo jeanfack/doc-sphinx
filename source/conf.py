@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Private documentation'
+project = 'Jean Fack documentation'
 copyright = '2025, Jean Fack'
 author = 'Jean Fack'
 release = '1.0'

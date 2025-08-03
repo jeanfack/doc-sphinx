@@ -6,13 +6,13 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MyST Example HOWTO &mdash; Private documentation 1.0 documentation</title>
+  <title>MyST Example HOWTO &mdash; Jean Fack documentation 1.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=c309799c" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
       <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
-      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=7dfc5757" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=c59519ca" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -25,6 +25,8 @@
       <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
       <script src="../_static/copybutton.js?v=f281be69"></script>
       <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
       <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
     <script src="../_static/js/theme.js"></script>
@@ -43,7 +45,7 @@
           
           
           <a href="../index.html" class="icon icon-home">
-            Private documentation
+            Jean Fack documentation
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -61,9 +63,24 @@
 <li class="toctree-l3"><a class="reference internal" href="#output">Output</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#graphviz">graphviz</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#admonition">admonition</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Source</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id2">Output</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#csv-table">csv-table</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Output</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#math">math</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Output</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#graphviz">graphviz</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Output</a></li>
 </ul>
 </li>
 </ul>
@@ -84,7 +101,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">Private documentation</a>
+          <a href="../index.html">Jean Fack documentation</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -168,21 +185,150 @@ helloworld.ps1</label><div class="sd-tab-content docutils">
 </div>
 </section>
 </section>
-<section id="graphviz">
-<h2>graphviz<a class="headerlink" href="#graphviz" title="Link to this heading"></a></h2>
+<section id="admonition">
+<h2>admonition<a class="headerlink" href="#admonition" title="Link to this heading"></a></h2>
 <section id="id1">
 <h3>Source<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
 <div class="sd-tab-set docutils">
 <input checked="checked" id="sd-tab-item-4" name="sd-tab-set-2" type="radio">
 <label class="sd-tab-label" for="sd-tab-item-4">
 markdown</label><div class="sd-tab-content docutils">
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span>:::{admonition} Admonition Title
+<span class="linenos">2</span>:class: Tip
+<span class="linenos">3</span>Example of [Admonition](https://myst-parser.readthedocs.io/en/latest/syntax/admonitions.html).
+<span class="linenos">4</span>:::
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id2">
+<h3>Output<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<div class="tip admonition">
+<p class="admonition-title">Admonition Title</p>
+<p>Example of <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/syntax/admonitions.html">Admonition</a>.</p>
+</div>
+</section>
+</section>
+<section id="csv-table">
+<h2>csv-table<a class="headerlink" href="#csv-table" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>Source<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-5" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-5">
+markdown</label><div class="sd-tab-content docutils">
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span>:::{csv-table} Docimentation syntax
+<span class="linenos">2</span>:file: ../_include/sphinx/myst-example-howto/csv/data.csv
+<span class="linenos">3</span>:header-rows: 1
+<span class="linenos">4</span>:align: left
+<span class="linenos">5</span>:::
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id4">
+<h3>Output<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<table class="docutils align-left" id="id9">
+<caption><span class="caption-text">Docimentation syntax</span><a class="headerlink" href="#id9" title="Link to this table"></a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Url</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ReStructured Text</p></td>
+<td><p><a class="reference external" href="https://www.sphinx-doc.org/">https://www.sphinx-doc.org/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Markdown</p></td>
+<td><p><a class="reference external" href="https://www.markdownguide.org/">https://www.markdownguide.org/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>MyST</p></td>
+<td><p><a class="reference external" href="https://myst-parser.readthedocs.io/">https://myst-parser.readthedocs.io/</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="math">
+<h2>math<a class="headerlink" href="#math" title="Link to this heading"></a></h2>
+<section id="id5">
+<h3>Source<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-6" name="sd-tab-set-4" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-6">
+markdown</label><div class="sd-tab-content docutils">
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span>The **Black-Scholes** formula (#Black-Scholes):
+<span class="linenos"> 2</span>
+<span class="linenos"> 3</span>$$
+<span class="linenos"> 4</span>	\mathrm C(\mathrm S,\mathrm t)= \mathrm N(\mathrm d_1)\mathrm S - \mathrm N(\mathrm d_2) \mathrm K \mathrm e^{-rt}
+<span class="linenos"> 5</span>$$ (Black-Scholes)
+<span class="linenos"> 6</span>
+<span class="linenos"> 7</span>$$
+<span class="linenos"> 8</span>	\mathrm d_1= \frac{1}{\sigma \sqrt{\mathrm t}} \left[\ln{\left(\frac{S}{K}\right)} + t\left(r + \frac{\sigma^2}{2} \right) \right]
+<span class="linenos"> 9</span>$$
+<span class="linenos">10</span>
+<span class="linenos">11</span>$$
+<span class="linenos">12</span>	\mathrm d_2= \frac{1}{\sigma \sqrt{\mathrm t}} \left[\ln{\left(\frac{S}{K}\right)} + t\left(r - \frac{\sigma^2}{2} \right) \right]
+<span class="linenos">13</span>$$
+<span class="linenos">14</span>
+<span class="linenos">15</span>$$
+<span class="linenos">16</span>	N(x)=\frac{1}{\sqrt{2\pi}} \int_{-\infty}^{x} \mathrm e^{-\frac{1}{2}z^2} dz
+<span class="linenos">17</span>	\label{eq:5}
+<span class="linenos">18</span>$$
+<span class="linenos">19</span>
+<span class="linenos">20</span>The **Ornstein-Uhlenbeck** process [](#Ornstein-Uhlenbeck):
+<span class="linenos">21</span>
+<span class="linenos">22</span>```{math}
+<span class="linenos">23</span>:label: Ornstein-Uhlenbeck
+<span class="linenos">24</span>dr_t = -\theta(r_t - \mu)dt + \sigma dW_t
+<span class="linenos">25</span>```
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id6">
+<h3>Output<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<p>The <strong>Black-Scholes</strong> formula (#Black-Scholes):</p>
+<div class="math notranslate nohighlight" id="equation-black-scholes">
+<span class="eqno">(1)<a class="headerlink" href="#equation-black-scholes" title="Link to this equation"></a></span>\[
+	\mathrm C(\mathrm S,\mathrm t)= \mathrm N(\mathrm d_1)\mathrm S - \mathrm N(\mathrm d_2) \mathrm K \mathrm e^{-rt}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+	\mathrm d_1= \frac{1}{\sigma \sqrt{\mathrm t}} \left[\ln{\left(\frac{S}{K}\right)} + t\left(r + \frac{\sigma^2}{2} \right) \right]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+	\mathrm d_2= \frac{1}{\sigma \sqrt{\mathrm t}} \left[\ln{\left(\frac{S}{K}\right)} + t\left(r - \frac{\sigma^2}{2} \right) \right]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+	N(x)=\frac{1}{\sqrt{2\pi}} \int_{-\infty}^{x} \mathrm e^{-\frac{1}{2}z^2} dz
+	\label{eq:5}
+\]</div>
+<p>The <strong>Ornstein-Uhlenbeck</strong> process <a class="reference internal" href="#equation-ornstein-uhlenbeck">(2)</a>:</p>
+<div class="math notranslate nohighlight" id="equation-ornstein-uhlenbeck">
+<span class="eqno">(2)<a class="headerlink" href="#equation-ornstein-uhlenbeck" title="Link to this equation"></a></span>\[dr_t = -\theta(r_t - \mu)dt + \sigma dW_t\]</div>
+</section>
+</section>
+<section id="graphviz">
+<h2>graphviz<a class="headerlink" href="#graphviz" title="Link to this heading"></a></h2>
+<section id="id7">
+<h3>Source<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-7" name="sd-tab-set-5" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-7">
+markdown</label><div class="sd-tab-content docutils">
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span>```{graphviz} ../_include/sphinx/myst-example-howto/graphviz/example1/example1.dot
 <span class="linenos">2</span>```
 </pre></div>
 </div>
 </div>
-<input id="sd-tab-item-5" name="sd-tab-set-2" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-5">
+<input id="sd-tab-item-8" name="sd-tab-set-5" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-8">
 markdown</label><div class="sd-tab-content docutils">
 <div class="highlight-dot notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="k">digraph</span><span class="w"> </span><span class="nt">G</span><span class="w"> </span><span class="p">{</span>
 <span class="linenos">2</span><span class="c1">// sphinx_rtd_dark_mode</span>
@@ -197,8 +343,8 @@ markdown</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </section>
-<section id="id2">
-<h3>Output<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<section id="id8">
+<h3>Output<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
 <div class="graphviz"><img src="../_images/graphviz-2460d33359df1d81e1c540fd328d60e1e563c7a7.png" alt="digraph G {
 // sphinx_rtd_dark_mode
   bgcolor=&quot;#141414&quot;

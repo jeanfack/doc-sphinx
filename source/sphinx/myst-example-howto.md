@@ -19,6 +19,57 @@ Officiel doc [https://myst-parser.readthedocs.io/](https://myst-parser.readthedo
 ```{include} ../_include/sphinx/myst-example-howto/code/md/code-block.md
 ```
 
+## admonition
+
+### Source
+
+::::{tab-set}
+:::{tab-item} markdown
+```{literalinclude} ../_include/sphinx/myst-example-howto/code/md/admonition.md
+:language: text
+:lineno-match:
+:::
+::::
+
+### Output
+
+```{include} ../_include/sphinx/myst-example-howto/code/md/admonition.md
+```
+
+## csv-table
+
+### Source
+
+::::{tab-set}
+:::{tab-item} markdown
+```{literalinclude} ../_include/sphinx/myst-example-howto/code/md/csv-table.md
+:language: text
+:lineno-match:
+:::
+::::
+
+### Output
+
+```{include} ../_include/sphinx/myst-example-howto/code/md/csv-table.md
+```
+
+## math
+
+### Source
+
+::::{tab-set}
+:::{tab-item} markdown
+```{literalinclude} ../_include/sphinx/myst-example-howto/code/md/math.md
+:language: text
+:lineno-match:
+:::
+::::
+
+### Output
+
+```{include} ../_include/sphinx/myst-example-howto/code/md/math.md
+```
+
 ## graphviz
 
 ### Source
