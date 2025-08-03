@@ -70,6 +70,23 @@ Officiel doc [https://myst-parser.readthedocs.io/](https://myst-parser.readthedo
 ```{include} ../_include/sphinx/myst-example-howto/code/md/math.md
 ```
 
+## mermaid
+
+### Source
+
+::::{tab-set}
+:::{tab-item} markdown
+```{literalinclude} ../_include/sphinx/myst-example-howto/code/md/mermaid.md
+:language: text
+:lineno-match:
+:::
+::::
+
+### Output
+
+```{include} ../_include/sphinx/myst-example-howto/code/md/mermaid.md
+```
+
 ## graphviz
 
 ### Source

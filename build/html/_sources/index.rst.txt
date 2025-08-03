@@ -20,13 +20,6 @@ documentation for details.
 
 .. toctree::
    :maxdepth: 9
-   :caption: Examples:
-   
-   example1  <examples/example1.md>
-
-
-.. toctree::
-   :maxdepth: 9
    :caption: Welcome:
    
-   MYST-parser HOWTO  <welcome/Myst-parser-HOWTO.md>
+   Welcome            <welcome/welcome.md>
