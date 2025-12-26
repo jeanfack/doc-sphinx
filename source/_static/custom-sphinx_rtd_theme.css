@@ -1,0 +1,31 @@
+.wy-nav-content {
+	padding: 1.618em 110px;
+	height: 100%;
+	witdh: none;
+	margin: left;
+}
+
+.wy-nav-side {
+	width: 500px;
+}
+
+.wy-nav-scroll {
+	width: 520px;
+}
+
+.wy-nav-search {
+	width: 500px;
+}
+
+.wy-nav-vertical {
+	width: 500px;
+}
+
+span.eqno {
+	float: right;
+}
+
+span.eqno a.headerlink {
+	position: relative;
+	z-index: 1;
+}

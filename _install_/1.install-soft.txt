@@ -1,0 +1,40 @@
+# Powershell version 7
+# => install from web
+
+# cmder
+# => install from web
+
+# 7-Zip
+# => install from web
+
+# Notepad++
+# => install from web
+
+# Agent Ransack
+# => install from web
+
+# VS Code
+# => install from web
+
+# PyCharm
+# => install from web
+
+# graphviz
+# => install from web
+
+# Anaconda
+# => install from web
+- CMD.exe Prompt: install
+- Powershell Prompt: install
+
+Drag & Drop to Task bar:
+- C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda (anaconda3)\Anaconda Navigator.lnk
+- C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda (anaconda3)\Anaconda Prompt.lnk
+- C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda (anaconda3)\Anaconda PowerShell Prompt.lnk  
+
+
+# check version
+:: cmd
+conda.exe -V
+python.exe -V
+pip.exe -V

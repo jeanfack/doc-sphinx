@@ -23,3 +23,10 @@ documentation for details.
    :caption: Welcome:
    
    Welcome            <welcome/welcome.md>
+
+.. toctree::
+   :maxdepth: 9
+   :caption: GitHub Foundation:
+   
+   git-command                    <gfc/git/command/git-command.md>
+   Git-config-gitignore           <gfc/git/config/git-config-ignore.md>

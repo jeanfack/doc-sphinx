@@ -19,7 +19,7 @@ release = '1.0'
 extensions = [
     'myst_parser', # https://myst-parser.readthedocs.io
     'sphinx_rtd_theme', # https://sphinx-rtd-theme.readthedocs.io
-    'sphinx_rtd_dark_mode', # https://github.com/MrDogeBro/sphinx_rtd_dark_mode
+    #'sphinx_rtd_dark_mode', # https://github.com/MrDogeBro/sphinx_rtd_dark_mode
     'sphinxcontrib.mermaid', # https://github.com/mgaitan/sphinxcontrib-mermaid
     'sphinx_design', # https://sphinx-design.readthedocs.io
     'sphinx_copybutton', # https://sphinx-copybutton.readthedocs.io
@@ -60,18 +60,49 @@ exclude_patterns = ['_include']
 
 html_static_path = ['_static']
 
-html_css_files = ['custom.css']
 
 # html_theme = 'alabaster'
 # html_theme = 'pydata_sphinx_theme'
+
+
+# Pygments Style for code-block
+pygments_style = 'github-dark'
+
+graphviz_dot = 'C:\\Program Files\\Graphviz\\bin\\dot.exe'
+
+##########################
+#   MrDogeBro
+##########################
+"""
+html_css_files = ['custom-sphinx_rtd_theme.css']
+
 html_theme = 'sphinx_rtd_theme'
+
+html_context = {
+    'default_mode' : 'dark'
+}
 
 html_theme_options = {
     'navigation_depth': -1,
     'collapse_navigation': True
 }
 
-# Pygments Style for code-block
-pygments_style = 'github-dark'
+"""
 
-graphviz_dot = 'C:\\Program Files\\Graphviz\\bin\\dot.exe'
+##########################
+#  Furo
+##########################
+html_css_files = ['custom-furo.css']
+
+html_theme = 'furo' # https://pradyunsg.me/furo/
+
+
+html_context = {
+    'default_mode' : 'dark'
+}
+
+
+#html_theme_options = {
+#    'sidebarwitdh': '840px',
+#    'body_max_witdh': 'none'
+#}

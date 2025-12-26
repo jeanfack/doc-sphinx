@@ -1,0 +1,23 @@
+aside.sidebar-drawer {
+	width: 400px;
+}
+
+div.sidebar-container {
+	width: 400px;
+}
+	
+div.main {
+	width: 100%;
+}
+
+div.content {
+	width: 100%;
+}
+
+aside.toc-drawer {
+	width: 0px;
+}
+
+div.toc-sticky.toc-scroll {
+	max-witdh: none;
+}

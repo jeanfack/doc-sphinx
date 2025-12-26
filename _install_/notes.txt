@@ -1,0 +1,7 @@
+pour VSCode, installer MyST-Markdown
+
+
+https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight
+
+le site officiel du projet:
+https://myst-parser.readthedocs.io/en/latest/
