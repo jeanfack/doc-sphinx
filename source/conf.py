@@ -96,6 +96,8 @@ html_css_files = ['custom-furo.css']
 
 html_theme = 'furo' # https://pradyunsg.me/furo/
 
+html_title = 'Jean Fack doc'
+
 
 html_context = {
     'default_mode' : 'dark'
